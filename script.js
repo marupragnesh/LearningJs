@@ -17,3 +17,4 @@ btn1.addEventListener("click", () => {
     // div.style.classList(".white");
   }
 });
+
