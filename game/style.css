@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5rem;
+  background-color: black;
+  color: white;
+  height: 4rem;
+  padding-top: 1rem;
+  
+}
+
+.choices {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.choice1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: yellow;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice3 {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.score-boared {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+
+.score {
+  margin-top: 3rem;
+}
+.score p {
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.msg-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.msg h1 {
+  display: inline;
+  color: white;
+  text-align: center;
+}
+
+.msg {
+  height: 3rem;
+  display: inline-block;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+}
