@@ -10,3 +10,6 @@ class employeeDetail{
 
 let obj = new employeeDetail();
 obj.printName();
+
+
+// we can not define variable with datatypes inside class 

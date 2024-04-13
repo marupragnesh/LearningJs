@@ -1,7 +1,9 @@
 console.log("1");
 console.log("2");
 console.log("3");
-settimeout("Hello",4000); // print after 4 second
+settimeout("Hello",4000); // print after 4 second 
+
+// above line is invalid why it is you tell me - answer : it need function paramter and you pass string.
 console.log("4");
 console.log("5");
 console.log("6");
