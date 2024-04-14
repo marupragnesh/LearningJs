@@ -41,6 +41,10 @@ const a = {
   // callingPostman : postman;
 
   callingPostman: postman,
+  // or 
+  callingPostman1 : (()=>{
+    console.log("execute postman function code here") //immediate invoke
+  })
 };
 a.callingPostman();
 
@@ -70,7 +74,7 @@ a.callingPostman();
 // Define a function that takes an arrow function as an argument
 const greet = (callback) => {
   // Call the arrow function callback
-  callback();
+  callback(); //HERE SAYHELLE COMES IN PARAMETE AND IT BECOMES SAYHELLO();
 };
 
 // Define a simple arrow function
@@ -79,7 +83,7 @@ const sayHello = () => {
 };
 
 // Call the greet function and pass the sayHello function as an arrow function callback
-greet(sayHello);
+greet(sayHello); 
 
 // OR
 const greet1 = (callback) => {
