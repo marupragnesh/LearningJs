@@ -29,20 +29,20 @@ function asycronous2(dataId){
     });
 }
 
-    // asycronous1("fetching data1").then((res)=>{
-    //     console.log(res);
-    //     asycronous2("fetching data2").catch((err)=>{
-    //     console.log(err);
-    //     });
-    // });
+    asycronous1("fetching data1").then((res)=>{
+        console.log(res);
+        asycronous2("fetching data2").catch((err)=>{
+        console.log(err);
+        });
+    });
 
-    // OR
+    OR
     
-    // asycronous1("pragnesh").then((resolve,reject)=>{
-    //     console.log(resolve);
-    //     return asycronous2("hacker")
-    // })
+    asycronous1("pragnesh").then((resolve)=>{
+        console.log(resolve);
+        return asycronous2("hacker")
+    })
 
-    // .catch((reject)=>{
-    //     console.log(reject);
-    // });
+    .catch((reject)=>{
+        console.log(reject);
+    });
